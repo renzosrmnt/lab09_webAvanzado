@@ -1,0 +1,13 @@
+<!-- listado.component.html -->
+<div class="row">
+    <div class="col-md-4 mb-3" *ngFor="let item of items">
+      <div class="card">
+        <img class="card-img-top" [src]="item.imageUrl" alt="{{ item.description }}">
+        <div class="card-body">
+          <h3 class="card-title">{{ item.title }}</h3>
+          <p class="card-text">{{ item.description }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  

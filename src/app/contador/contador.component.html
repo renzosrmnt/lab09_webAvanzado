@@ -1,7 +1,10 @@
-<div>
-    <h2>Contador</h2>
-    <button (click)="incrementar()">Incrementar</button>
-    <button (click)="disminuir()">Disminuir</button>
-    <p>El valor actual del contador es: {{valor}}</p>
-</div>
+<!-- contador.component.html -->
+<div class="card">
+    <div class="card-body">
+      <h2>Contador</h2>
+      <button class="btn btn-primary" (click)="incrementar()">Incrementar</button>
+      <button class="btn btn-danger mx-2" (click)="disminuir()">Disminuir</button>
+      <p class="mt-3">El valor actual del contador es: {{ valor }}</p>
+    </div>
+  </div>
   
